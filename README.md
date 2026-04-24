@@ -1,8 +1,8 @@
-﻿# Website Redesign Gantt Dashboard
+﻿# Project Timeline And Task Dashboard
 
 ## Overview
 
-Website Redesign Gantt Dashboard is a browser-based project management dashboard built from a website redesign timeline and task plan.
+Project Timeline And Task Dashboard is a browser-based project management dashboard built from a website redesign timeline and task plan.
 
 This project is positioned as a recruiter-ready frontend portfolio piece. It transforms a static Gantt chart and task schedule into an interactive dashboard that presents project phases, ownership, progress, and task timing in a cleaner and more accessible way.
 
@@ -55,3 +55,4 @@ Open the dashboard in a browser.
 
 ```powershell
 Start-Process .\index.html
+
