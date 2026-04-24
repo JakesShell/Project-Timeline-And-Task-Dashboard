@@ -1,76 +1,57 @@
-# GantChart
-
-# Website Redesign Project Gantt Chart
+﻿# Website Redesign Gantt Dashboard
 
 ## Overview
 
-This repository contains a Gantt Chart for the **Website Redesign Project** undertaken by **VanRooyen, Ltd.** The project is aimed at enhancing the company's online presence through a comprehensive redesign of its website. The Gantt chart provides a visual timeline of the project, detailing tasks, responsible team members, and progress updates.
+Website Redesign Gantt Dashboard is a browser-based project management dashboard built from a website redesign timeline and task plan.
 
-### Project Details
+This project is positioned as a recruiter-ready frontend portfolio piece. It transforms a static Gantt chart and task schedule into an interactive dashboard that presents project phases, ownership, progress, and task timing in a cleaner and more accessible way.
 
-- **Project Start Date**: October 19, 2024
-- **Project Lead**: VanRooyen, Ltd.
-- **Display Week**: Week 1
+## Real-World Business Use Case
 
-### Gantt Chart Summary
+This project maps to practical project management and operations workflows used by:
 
-The Gantt chart outlines the following phases of the project:
+- Project Coordinators
+- Operations Teams
+- Delivery Managers
+- Frontend Developers Building Internal Tools
+- Teams Tracking Multi-Phase Project Progress
 
-1. **Initiation Phase**
-   - Define goals
-   - Conduct studies
-   - Establish communication
-   - Develop project charter
-   - Set up the project team
+A team may need to answer questions such as:
 
-2. **Planning and Design Phase**
-   - Create project schedule
-   - Identify deliverables
-   - Develop budget
-   - Define project scope
-   - Identify potential risks
+- What phase is the project currently in?
+- Which tasks are assigned to which team members?
+- How much progress has been made on each task?
+- How can a static project plan be presented more clearly in the browser?
 
-3. **Execution Phase**
-   - Execute tasks as per the plan
-   - Monitor progress
-   - Manage resources effectively
-   - Provide regular updates
+This dashboard is useful for project reporting, stakeholder communication, and portfolio demonstration of turning static documentation into a frontend experience.
 
-4. **Testing and Validation Phase**
-   - Test deliverables
-   - Validate outcomes against objectives
+## Key Features
 
-5. **Evaluation Phase**
-   - Monitor overall progress
-   - Track project expenses
-   - Evaluate project outcomes
-   - Address any risks identified
-   - Gather feedback from stakeholders
+- Browser-Based Project Dashboard
+- Summary Cards For Project Context
+- Phase Overview Section
+- Task Progress Table
+- Progress Bars For Task Completion
+- Clean Responsive UI
+- Lightweight Frontend-Only Setup
 
-### Task Breakdown
+## Tech Stack
 
-| Task Name                  | Assigned To       | Progress | Start Date | End Date   |
-|----------------------------|-------------------|----------|------------|------------|
-| Define goals               | Gokce Aslan       | 50%      | 10/19/24   | 10/22/24   |
-| Conduct studies            | Hayden Cook       | 60%      | 10/22/24   | 10/24/24   |
-| Establish comms            | Jens Martensson   | 50%      | 10/24/24   | 10/28/24   |
-| Develop charter            | Nuria Acevedo     | 25%      | 10/28/24   | 11/02/24   |
-| Set up team                | Olivia Wilson      | 0%       | 10/23/24   | 10/25/24   |
-| Create schedule            | Gokce Aslan       | 50%      | 10/24/24   | 10/28/24   |
-| Identify deliverables      | Hayden Cook       | 50%      | 10/26/24   | 10/31/24   |
-| Develop budget             | Jens Martensson   | 0%       | 10/31/24   | 11/03/24   |
-| Define scope               | Nuria Acevedo     | 0%       | 10/31/24   | 11/02/24   |
-| Identify risks             | Olivia Wilson      | 0%       | 10/31/24   | 11/03/24   |
-| Execute tasks              | Gokce Aslan       | 50%      | 11/03/24   | 11/08/24   |
-| Monitor progress           | Hayden Cook       | 60%      | 11/09/24   | 11/13/24   |
-| Manage resources           | Jens Martensson   | 50%      | 11/14/24   | 11/19/24   |
-| Provide updates            | Nuria Acevedo     | 25%      | 11/20/24   | 11/24/24   |
-| Testing and validation     | Olivia Wilson      | 25%      | 11/14/24   | 11/18/24   |
-| Track expenses             | Hayden Cook       | 25%      | 11/08/24   | 11/12/24   |
-| Evaluate progress          | Jens Martensson   | 50%      | 11/13/24   | 11/16/24   |
-| Address risks              | Nuria Acevedo     | 60%      | 11/10/24   | 11/13/24   |
-| Gather feedback            | Olivia Wilson      | 50%      | 11/12/24   | 11/17/24   |
+- HTML
+- CSS
+- JavaScript
 
-### Usage
+## Repository Contents
 
-This Gantt chart serves as a dynamic project management tool to track progress, allocate resources, and ensure timely completion of tasks. Team members are encouraged to update their task statuses regularly to maintain an accurate project overview.
+- `index.html`
+- `styles.css`
+- `script.js`
+- `README.md`
+- `Gant Chart.pdf`
+
+## How To Run
+
+Open the dashboard in a browser.
+
+```powershell
+Start-Process .\index.html
